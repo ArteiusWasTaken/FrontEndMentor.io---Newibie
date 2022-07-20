@@ -1,0 +1,103 @@
+@media only screen and (max-width: 375px) {
+  .padre {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .hijo1 {
+    background-image: url("images/image-product-mobile.jpg");
+    background-size: 344px 240px;
+    width: 344px;
+    height: 240px;
+  }
+  .hijo2 {
+    background-color: hsl(0, 0%, 100%);
+    width: 344px;
+    height: 371px;
+  }
+  .btnContainer {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 376px) {
+  .padre {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .hijo1 {
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: 300px 450px;
+    width: 300px;
+    height: 450px;
+  }
+  .hijo2 {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+  }
+  .btnContainer {
+    margin-top: 35px;
+  }
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.container {
+  padding: 16px 24px;
+}
+.gray {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+.darkCyan {
+  color: hsl(158, 36%, 37%);
+}
+
+.canceled {
+  padding-top: 14px;
+  padding-right: 60px;
+  text-decoration: line-through;
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+}
+.button:hover {
+  background-color: hsl(212, 21%, 14%);
+  transition: 0.7s;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fraunces {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Fraunces", serif;
+}
+.pad {
+  padding-right: 30px;
+}
+
+.prices {
+  display: flex;
+}
+.prices.space-around {
+  justify-content: space-between;
+}
