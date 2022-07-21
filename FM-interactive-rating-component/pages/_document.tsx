@@ -18,8 +18,18 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./img/favicon-32x32.png"
+          />
+          <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+            rel="stylesheet"
           />
         </Head>
         <body>
