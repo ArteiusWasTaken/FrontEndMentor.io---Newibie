@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ArteiusWorkshop/FM-product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://arteiusworkshop.github.io/FM-product-preview-card-component/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-product-preview-card-component)
+- Live Site URL: [Live site URL here](https://arteiusworkshop.github.io/FM-product-preview-card-component/)
 
 ## My process
 
@@ -39,7 +39,7 @@ Users should be able to:
 - HTML5
 - CSS custom properties
 - Flexbox
-  -Bootstrap 5
+- Bootstrap 5
 
 ### What I learned
 
