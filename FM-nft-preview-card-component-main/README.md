@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-product-preview-card-component)
-- Live Site URL: [Live site URL here](https://arteiusworkshop.github.io/FM-product-preview-card-component/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-nft-preview-card-component-main)
+- Live Site URL: [Live site URL here](https://fm-nft-preview-card-component-main-9p6irin35-arteiusworkshop.vercel.app/)
 
 ## My process
 
