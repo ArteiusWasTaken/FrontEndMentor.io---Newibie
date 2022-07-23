@@ -1,0 +1,77 @@
+button,
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.sec.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sec.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.sec.lux {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.titlefont {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    display: block;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sec {
+    width: 330px;
+    height: 440px;
+  }
+  .sec .container {
+    width: 235px;
+    height: 360px;
+    display: inline-flex;
+    margin: 0px 45px;
+  }
+  .sec.sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .sec.lux {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+
+@media only screen and (min-width: 376px) {
+  .container {
+    display: flex;
+  }
+  .sec {
+    width: 310px;
+    height: 500px;
+  }
+  .sec .container {
+    width: 215px;
+    height: 410px;
+  }
+  .sec.sedans {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .sec.lux {
+    border-radius: 0px 10px 10px 0px;
+  }
+}
