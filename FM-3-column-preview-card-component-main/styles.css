@@ -5,6 +5,10 @@ body {
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+button,
+p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
 }
@@ -12,17 +16,43 @@ p {
   background-color: hsl(31, 77%, 52%);
 }
 
+.sec.sedans button {
+  color: hsl(31, 77%, 52%);
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+  height: 45px;
+}
+
 .sec.suvs {
   background-color: hsl(184, 100%, 22%);
 }
-
+.sec.suvs button {
+  color: hsl(184, 100%, 22%);
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+  height: 45px;
+}
 .sec.lux {
   background-color: hsl(179, 100%, 13%);
 }
-
+.sec.lux button {
+  color: hsl(179, 100%, 13%);
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+  height: 45px;
+}
+.sec button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: inherit;
+  border: 3px solid hsl(0, 0%, 100%);
+}
 .titlefont {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
+  font-size: 40px;
 }
 
 .vertical-center {
@@ -34,7 +64,7 @@ p {
     display: block;
     padding: 10px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   .sec {
     width: 330px;
@@ -42,8 +72,10 @@ p {
   }
   .sec .container {
     width: 235px;
-    height: 360px;
-    display: inline-flex;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0px 45px;
   }
   .sec.sedans {
