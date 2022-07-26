@@ -39,6 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Bootstrap 5
 
 ### What I learned
 
