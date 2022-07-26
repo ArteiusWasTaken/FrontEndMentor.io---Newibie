@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-product-preview-card-component)
-- Live Site URL: [Live site URL here](https://arteiusworkshop.github.io/FM-product-preview-card-component/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-stats-preview-card-component-main)
+- Live Site URL: [Live site URL here](https://fm-stats-preview-card-component-main-kfys6d2nl-arteiusworkshop.vercel.app/)
 
 ## My process
 

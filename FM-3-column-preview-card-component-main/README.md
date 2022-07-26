@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-qr-code-component-main)
-- Live Site URL: [Live site URL here](https://fm-qr-code-component-main-i6sb4jfiu-arteiusworkshop.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-3-column-preview-card-component-main)
+- Live Site URL: [Live site URL here](https://fm-3-column-preview-card-component-main-ffn6ijx4i.vercel.app/)
 
 ## My process
 

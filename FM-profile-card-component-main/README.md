@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-qr-code-component-main)
-- Live Site URL: [Live site URL here](https://fm-qr-code-component-main-i6sb4jfiu-arteiusworkshop.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-profile-card-component-main)
+- Live Site URL: [Live site URL here](https://fm-profile-card-component-main-4fqljez9p-arteiusworkshop.vercel.app/)
 
 ## My process
 
