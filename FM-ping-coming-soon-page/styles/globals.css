@@ -1,0 +1,25 @@
+.TextField-border-radius fieldset {
+  border-radius: 30px;
+  width: 200px;
+}
+
+.upload-icon:hover .font-upload {
+  color: white;
+}
+.icon {
+  border: 0.5px dotted gray;
+}
+.icon:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+}
+
+.footer,
+.titles {
+  color: hsl(0, 0%, 59%);
+}
+
+.emphasis {
+  color: black;
+  font-weight: 700;
+}
