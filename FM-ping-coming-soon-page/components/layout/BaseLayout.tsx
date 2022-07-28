@@ -20,7 +20,7 @@ export const BaseLayout: FC<Props> = ({
         <meta name="og:title" content={title} />
         <meta
           property="og:image"
-          content={`${origin}/img/desktop-preview.png`}
+          content={`${origin}/img/desktop-preview.jpg`}
         />
       </Head>
 
