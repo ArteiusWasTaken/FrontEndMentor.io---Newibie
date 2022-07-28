@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-interactive-rating-component)
-- Live Site URL: [Live site URL here](https://fm-interactive-rating-component-ql3l17wjw-arteiusworkshop.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/ArteiusWorkshop/FM-ping-coming-soon-page)
+- Live Site URL: [Live site URL here](https://fm-ping-coming-soon-page-a3sua4ubs-arteiusworkshop.vercel.app/)
 
 ## My process
 
