@@ -24,11 +24,7 @@ class MyDocument extends Document {
             href="./img/favicon-32x32.png"
           />
           <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
             rel="stylesheet"
           />
         </Head>

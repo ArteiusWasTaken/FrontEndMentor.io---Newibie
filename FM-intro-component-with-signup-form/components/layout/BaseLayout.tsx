@@ -9,7 +9,7 @@ interface Props {
 const origin = typeof window === "undefined" ? "" : window.location.origin;
 
 export const BaseLayout: FC<Props> = ({
-  title = "Frontend Mentor | Interactive rating component",
+  title = "FFrontend Mentor - Ping coming soon page solution",
   children,
 }) => {
   return (
@@ -20,7 +20,7 @@ export const BaseLayout: FC<Props> = ({
         <meta name="og:title" content={title} />
         <meta
           property="og:image"
-          content={`${origin}/img/desktop-preview.png`}
+          content={`${origin}/img/desktop-preview.jpg`}
         />
       </Head>
 
@@ -29,9 +29,9 @@ export const BaseLayout: FC<Props> = ({
           display: "flex",
           height: "100vh",
           width: "100vw",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
+          position: "absolute",
+          top: "0",
+          left: "0",
         }}
       >
         {children}

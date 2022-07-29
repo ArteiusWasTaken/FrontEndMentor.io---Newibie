@@ -1,20 +1,25 @@
-body {
-  background-color: #141519;
+.TextField-border-radius fieldset {
+  border-radius: 30px;
+  width: 200px;
 }
-.thanks-enter {
-  opacity: 0;
-  transform: scale(0.9);
+
+.upload-icon:hover .font-upload {
+  color: white;
 }
-.thanks-enter-active {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 300ms, transform 300ms;
+.icon {
+  border: 0.5px dotted gray;
 }
-.thanks-exit {
-  opacity: 1;
+.icon:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
 }
-.thanks-exit-active {
-  opacity: 0;
-  transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
+
+.footer,
+.titles {
+  color: hsl(0, 0%, 59%);
+}
+
+.emphasis {
+  color: black;
+  font-weight: 700;
 }
