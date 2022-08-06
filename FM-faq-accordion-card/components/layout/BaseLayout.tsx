@@ -9,7 +9,7 @@ interface Props {
 const origin = typeof window === "undefined" ? "" : window.location.origin;
 
 export const BaseLayout: FC<Props> = ({
-  title = "Frontend Mentor | Interactive rating component",
+  title = "Frontend Mentor | FAQ accordion card solution",
   children,
 }) => {
   return (

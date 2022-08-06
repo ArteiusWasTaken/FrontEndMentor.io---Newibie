@@ -9,7 +9,7 @@ interface Props {
 const origin = typeof window === "undefined" ? "" : window.location.origin;
 
 export const BaseLayout: FC<Props> = ({
-  title = "FFrontend Mentor - Ping coming soon page solution",
+  title = "FFrontend Mentor - Base Apparel coming soon page solution",
   children,
 }) => {
   return (
@@ -24,18 +24,7 @@ export const BaseLayout: FC<Props> = ({
         />
       </Head>
 
-      <main
-        style={{
-          display: "flex",
-          height: "100vh",
-          width: "100vw",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
-        }}
-      >
-        {children}
-      </main>
+      <main>{children}</main>
     </>
   );
 };

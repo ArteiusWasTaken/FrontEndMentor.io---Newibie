@@ -1,19 +1,20 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 export const Title = () => {
   return (
-    <>
-      <Typography
-        fontWeight={300}
-        variant="h3"
-        paddingTop="50px"
-        className="titles"
+    <Box className="box left" color="white" flexDirection="column">
+      <Box
+        padding="40px"
+        sx={{ textAlign: { xs: "center", sm: "center", md: "start" } }}
       >
-        We are launching <span className="emphasis">soon!</span>
-      </Typography>
-
-      <Typography fontWeight={300} variant="body1">
-        Subscribe and get notified
-      </Typography>
-    </>
+        <Typography variant="h3" fontWeight="700">
+          Learn to code by watching others
+        </Typography>
+        <Typography variant="body1" fontWeight="500" paddingTop="30px">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </Typography>
+      </Box>
+    </Box>
   );
 };

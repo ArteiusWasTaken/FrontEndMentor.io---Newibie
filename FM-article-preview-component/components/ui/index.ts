@@ -1,3 +1,3 @@
-export * from "./RatingCard";
-export * from "./ThankYouCard";
-export * from "./ButtonBar";
+export * from "./Footer";
+export * from "./BaseFooter";
+export * from "./ProfileFooter";

@@ -1,6 +1,6 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - Article preview component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,15 +19,13 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon
 
 ### Screenshot
 
-![Screen 1](./Screenshot_1.png)
-![Screen 2](./Screenshot_2.png)
+![Screen 1](./screenshot.png)
+![Screen 2](./screenshot2.png)
 
 ### Links
 
@@ -40,14 +38,7 @@ Users should be able to:
 
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [React Transition Group](https://reactcommunity.org/react-transition-group/) - For transition
 - CSS custom properties
-
-### Continued development
-
-### Useful resources
-
-- [CSSTransition](https://reactcommunity.org/react-transition-group/css-transition) - This helped me to implement the component transition when rated.
 
 ## Author
 
