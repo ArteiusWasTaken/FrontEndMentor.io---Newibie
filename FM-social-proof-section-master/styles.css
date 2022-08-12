@@ -1,0 +1,118 @@
+.a {
+  width: 50%;
+  padding: 100px;
+}
+.b {
+  width: 50%;
+}
+.c {
+  width: 100%;
+}
+.a p {
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+}
+* {
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(0, 0%, 100%);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  width: 90%;
+  border-radius: 10px;
+  height: 55px;
+  font-weight: 600;
+  margin: 40px;
+  max-width: 444px;
+}
+
+.rating p {
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h1,
+.rating {
+  color: hsl(300, 43%, 22%);
+}
+.card {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+}
+.con {
+  display: flex;
+}
+
+.second {
+  margin-left: 60px;
+}
+.third {
+  margin-left: 90px;
+}
+.one,
+.two {
+  margin-right: 20px;
+}
+.two {
+  margin-top: 30px;
+}
+.three {
+  margin-top: 60px;
+}
+.sub {
+  color: hsl(333, 80%, 67%);
+}
+.avatar {
+  border-radius: 50px;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-image: url(./images/bg-pattern-top-mobile.svg),
+      url(./images/bg-pattern-bottom-mobile.svg);
+  }
+  .top {
+    flex-direction: column;
+  }
+  .a {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .b {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .con {
+    display: inline-block;
+  }
+  .card-body .con {
+    display: flex;
+  }
+  .first,
+  .second,
+  .third,
+  .one,
+  .two,
+  .three {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .a {
+    text-align: center;
+  }
+}

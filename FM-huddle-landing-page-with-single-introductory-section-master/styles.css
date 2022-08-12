@@ -1,0 +1,83 @@
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(./images/bg-desktop.svg);
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50px;
+  width: 200px;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  transition: 0.7s;
+}
+
+button,
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+p,
+h1,
+button:hover,
+.icon {
+  color: white;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  margin-left: 20px;
+  transition: 0.7s;
+}
+.icon:hover {
+  color: hsl(300, 69%, 71%);
+  transition: 0.7s;
+  border: 1px solid hsl(300, 69%, 71%);
+}
+a {
+  text-decoration: none;
+}
+
+.futer {
+  justify-content: end;
+}
+
+@media only screen and (max-width: 767px) {
+  h1,
+  p {
+    text-align: center;
+  }
+  .futer {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 445px) {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+  }
+}

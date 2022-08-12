@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+@media only screen and (max-width: 375px) {
+  .super {
+    width: 310px;
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 376px) {
+  .super {
+    width: 350px;
+    height: 246px;
+  }
+}
+
+.titles {
+  font-weight: 600;
+  text-align: center;
+}
+.desc {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-weight: 600;
+  color: hsl(229, 6%, 66%);
+}
+
+.super {
+  padding: 30px;
+  background-color: white;
+  margin: 10px;
+}
+
+.supervisor {
+  box-shadow: 0 -5px hsl(180, 62%, 55%), 0px 5px 10px 0 gray;
+}
+
+.teambuilder {
+  box-shadow: 0 -5px hsl(0, 78%, 62%), 0px 5px 10px 0 gray;
+}
+
+.karma {
+  box-shadow: 0 -5px hsl(34, 97%, 64%), 0px 5px 10px 0 gray;
+}
+
+.calculator {
+  box-shadow: 0 -5px hsl(212, 86%, 64%), 0px 5px 10px 0 gray;
+}

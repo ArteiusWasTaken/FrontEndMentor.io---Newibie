@@ -1,0 +1,95 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.top {
+  min-height: 100vh;
+  max-width: 636px;
+}
+
+.con {
+  height: 217px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 50px;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 10px;
+  padding: 30px;
+  color: white;
+}
+
+.right {
+  background-color: hsl(179, 47%, 52%);
+  border-radius: 0 0 10px 0;
+  padding: 20px;
+  color: rgb(231, 229, 229);
+}
+.left > h5 {
+  font-weight: 700;
+}
+.right > h5 {
+  color: white;
+  font-weight: 700;
+}
+.con > h5 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+.con > h4 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+.price {
+  font-size: 30px;
+  font-weight: 700;
+}
+.desc {
+  color: rgb(231, 229, 229);
+}
+.signup {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+}
+
+.signup,
+.con {
+  width: 100%;
+}
+
+.left,
+.right {
+  height: 259px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 445px) {
+  body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .bot {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+  }
+  .right {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    height: auto;
+  }
+  .con {
+    padding: 20px;
+    height: auto;
+  }
+}
